@@ -1,0 +1,30 @@
+h1 {
+  font-size: 7em !important;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+.start {
+  background: #6B0000;
+  color: white;
+}
+
+.destinations {
+  color: black;
+  background: none;
+}
+
+.destinations input {
+  margin-bottom: 5px;
+}
+
+#go {
+  text-decoration: none;
+}
+
+#go button {
+  background: #6B0000;
+  color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Mobile Directions</title>
+<body>
+  <div class="jumbotron title">
+    <h1 class="text-center">Mobile Directions</h1>
+  </div>
+  <div class="jumbotron row start">
+    <div class="col-xs-5"><h2>Start:</h2></div>
+    <div class="col-xs-7">
+      <input id="start" type="text" class="form-control" placeholder="Starting Location">
+    </div>
+  </div>
+  <div class="jumbotron row destinations">
+    <div class="col-xs-5"><h2>Destinations:</h2></div>
+    <div class="col-xs-7">
+      <div id="dest-boxes">
+        <input id="dest1" type="text" class="form-control" placeholder="Destination">
+      </div>
+      <button type="button" class="btn btn-default btn-md" id="add">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+  <div class="text-center col-xs-12">
+    <a href="#" id="go">
+        <button type="button" class="btn btn-default col-xs-12">
+          <h2>Go!</h2>
+        </button>
+    </a>
+  </div>
+</body>
+<footer>
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=boxes" 
+  async defer></script> 
+</footer>
